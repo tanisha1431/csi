@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head> 
+	<title>Form </title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+
+		}
+		body{
+			background-image: url(1.jpg);
+			background-position: center;
+			background-size: cover;
+
+			 
+			margin-top:40px;
+
+
+		}
+		.regform{
+			width:800px
+			background-color:rgb(0,0,0,0.6);
+			margin:auto;
+			color:#FFFFFF;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			border-radius: 15px 15px 0px 0px;
+		}
+		.main{
+			background-color: rgb(0,0,0,0.5);
+			width:800px;
+			margin:auto;
+
+
+		}
+		form{
+			padding:10px;}
+
+		.roll_no{
+			position: relative;
+			left:200px;
+			top:-37px;
+			line-height: 40px;
+			width:532px;
+			border-radius:6px;
+			padding: 0 22px;
+			font-size:16px;
+			color: #555;
+
+		}
+
+		.email{
+			position: relative;
+			left:200px;
+			top:-37px;
+			line-height: 40px;
+			width:532px;
+			border-radius:6px;
+			padding: 0 22px;
+			font-size:16px;
+			color: #555;
+
+		}
+		.phonenumber{
+			position: relative;
+			left:200px;
+			top:-37px;
+			line-height: 40px;
+			width:532px;
+			border-radius:6px;
+			padding: 0 22px;
+			font-size:16px;
+			color: #555;
+
+		}
+		.fullname{
+			position: relative;
+			left:200px;
+			top:-37px;
+			line-height: 40px;
+			width:532px;
+			border-radius:6px;
+			padding: 0 22px;
+			font-size:16px;
+			color: #555;
+
+		}
+		.name{
+			color: #FFFFFF;
+		}
+		.branch{
+			color: #FFFFFF;
+		}
+		.events{
+			color: #FFFFFF;
+		}
+		.list-1{
+			color:#FFFFFF;
+		}
+		.list-2{
+			color:#FFFFFF;
+		}
+		.list-3{
+			color:#FFFFFF;
+		}
+
+		button{
+			background-color: #3282b8;
+			display: block;
+			margin: 20px 0px 0px 20px;
+			text-align: center;
+			border-radius: 12px;
+			border:2px solid #366473;
+			padding: 14px 110px;
+			outline: none;
+			color:#FFFFFF;
+			cursor:pointer;
+			transition:0.25px;
+		}
+
+
+
+
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="regform">
+		<h1> Registration for Cubix </h1> </div>
+	<div class="main">
+		<form>
+			<h2 class ="name"> Name </h2>
+				<input class="fullname" type="text" name="fullname">
+			
+			<h2 class="branch"> Already a member of CSI? </h2>
+			<div class=" list-1">
+			    <label class="radio">
+				<input class="radio-1" type="radio" id="yes" name="member" value="yes">
+					<span class="checkmark"></span> Yes
+            	</label><br>
+            	 <label class="radio">
+				<input class="radio-2" type="radio" id="no" name="member" value="no">
+					<span class="checkmark"></span> No
+            	</label><br> <br> 
+            </div>
+            	
+			<h2 class ="name"> Roll no  </h2>
+				<input class="roll_no" type="text" name="roll_no">
+			<h2 class ="name"> Email </h2>
+				<input class="email" type="text" name="email">
+			<h2 class ="name"> Phone No.  </h2>
+				<input class="phonenumber" type="tel" name="phonenumber"> <br>
+			<h2 class="branch"> Branch </h2>
+			<div class="list-2">
+				<input type="radio" id="cse" name="branch" value="cse">
+            		<label for="cse">CSE</label><br>
+            	<input type="radio" id="cse-mba" name="branch" value="cse-mba">
+            		<label for="cse-mba">CSE-MBA</label><br>
+            	<input type="radio" id="ch" name="branch" value="ch">
+            		<label for="ch">CH</label><BR>
+            	<input type="radio" id="ec" name="branch" value="ec">
+            		<label for="ec">EC </label> <br>
+            	<input type="radio" id="ic" name="branch" value="ic">
+            		<label for="ic">IC </label> <br>
+            	<input type="radio" id="ee" name="branch" value="ee">
+            		<label for="ee">EE </label> <br>
+            	<input type="radio" id="me" name="branch" value="me">
+            		<label for="me">ME </label> <br>
+	        	<input type="radio" id="cl" name="branch" value="cl">
+            		<label for="cl">CL </label> <br> <br> </div>
+
+            <h2 class="events"> Events </h2>
+            <div class="list-3">
+            	<input type="checkbox" id="event1" name="event1" value="vas code gama">
+		    		<label for="event1"> Vas Code Gama</label><br>
+		    	<input type="checkbox" id="event2" name="event2" value="Bug a thon">
+		    		<label for="event2"> Bug a thon</label><br>
+		    	<input type="checkbox" id="event3" name="event3" value="Hack the code">
+		    		<label for="event3"> Hack the code</label><br>
+		    	<input type="checkbox" id="event4" name="event4" value="tickle your brain">
+		    		<label for="event4"> Tickle your brain</label><br>
+		    	<input type="checkbox" id="event5" name="event5" value="spiders">
+		    		<label for="event5"> Spiders</label><br><br> </div>
+		    		
+
+		   
+		    	<button type="submit">Submit </button>
+		    
+		            
+
+
+
+
+		</form>
+
+
+	</div>
+
+</body>
+</html>
